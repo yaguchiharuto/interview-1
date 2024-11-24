@@ -72,32 +72,32 @@ section {
 
 
 .sec3 {
-    padding: 50px 10%; /* 左右に10%の余白を設定し、横幅を広げる */
-    background: none; /* 背景は引き続き削除 */
+    padding: 50px 10%; 
+    background: none; 
     color : #fff;
 
-    width: 100%; /* 幅いっぱいに広げる */
-    max-width: 1200px; /* 最大幅を1200pxに制限 */
-    margin: 0 auto; /* コンテンツを中央揃え */
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto; 
 }
 
 .sec3 .content {
-    width: 100%; /* コンテンツを全幅で表示 */
-    max-width: 1200px; /* 最大幅を設定して読みやすく */
-    margin: 0 auto; /* 中央揃え */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .sec3 .text {
-    line-height: 1.8; /* 行間を広げて読みやすく */
-    font-size: 1.2rem; /* フォントサイズを少し大きく */
-    padding: 20px; /* テキストの内側に余白を設定 */
-    background: none; /* 背景を削除 */
-    border: none; /* 枠線を削除 */
+    line-height: 1.8; 
+    font-size: 1.2rem;
+    padding: 20px; 
+    background: none; 
+    border: none; 
 }
 
 h2.main-title, h3, h4 {
-    text-align: left; /* タイトルも左寄せ */
-    margin-bottom: 20px; /* タイトル下に適度な余白を追加 */
+    text-align: left; 
+    margin-bottom: 20px; 
 }
 
 .sec3 h3 {
