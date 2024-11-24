@@ -8,12 +8,13 @@
 }
 body {
     background: linear-gradient(#10a4a2,#c111e4  )
+
 }
 section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 100px;
+    padding: 40px 100px;
     color: #fff;
 }
 .container {
@@ -72,7 +73,10 @@ section {
     padding: 50px 10%; /* 左右に10%の余白を設定し、横幅を広げる */
     background: none; /* 背景は引き続き削除 */
     color : #fff;
-    text-align: left;
+
+    width: 100%; /* 幅いっぱいに広げる */
+    max-width: 1200px; /* 最大幅を1200pxに制限 */
+    margin: 0 auto; /* コンテンツを中央揃え */
 }
 
 .sec3 .content {
