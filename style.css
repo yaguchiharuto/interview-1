@@ -116,4 +116,64 @@ h2.main-title, h3, h4 {
     
 }
 
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        flex-direction: column;
+    }
 
+    .content {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content .image {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .content .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content .text-box {
+        transform: none;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sec3 {
+        padding: 30px 5%;
+    }
+
+    .sec3 h3 {
+        font-size: 1.5rem;
+    }
+
+    .sec3 p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sec3 h3 {
+        font-size: 1.2rem;
+    }
+
+    .sec3 p {
+        font-size: 0.9rem;
+    }
+}
